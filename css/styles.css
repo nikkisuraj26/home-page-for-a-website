@@ -1,0 +1,165 @@
+#title{
+  background-color: #FF99FC;
+  color: #fff;
+}
+.navbar{
+  background-color: #FF99FC;
+}
+/* .img{
+  max-width: 80%;
+  max-height: 200%; */
+
+body{
+  font-family: "Montserrat";
+
+}
+/* h1 {
+h1, h2, h3, h4, h5, h6{
+font-family: Montserrat(this is called as refactorization)
+}
+
+  font-size: 10rem;
+  line-height: 1.5;
+
+
+} */
+.navbar{
+  padding-bottom: 4.5rem;
+
+}
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.head{
+  font-weight:  900;
+  font-family: 'Montserrat';
+  font-size:3rem;
+  line-height: 2;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.container-fluid{
+  padding: 3% 15%;
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+
+}
+
+/* download buttons */
+.dowload{
+  margin: 5% 3% 5% 0;
+}
+/* dog image */
+.imgtitle{
+  width: 40%;
+  transform: rotate(15deg);
+  margin-top: 5%
+   /* position: absolute;
+   width: 20% */
+
+}
+/* whenever u want spaces between elements add the padding element */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.h{
+  font-weight: 800;
+  font-size: 1.5rem;
+  font-family: 'Montserrat' ;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #FF7E56;
+  padding-bottom: 7%;
+}
+.icon:hover{
+  color:#F63A00
+}
+.pic{
+  width: 30%;
+  border-radius: 50%;
+  margin: 20px;
+
+}
+.htwo{
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+  line-height: 1.5;
+   font-weight: 600;
+}
+#news{
+
+  text-align: center;
+  background-color:#FF7E56;
+color: #fff;
+
+
+}
+.carousel{
+  padding: 7% 15%;
+}
+#press{
+    background-color:#FF7E56;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px){
+  .imgtitle{
+    transform: rotate(0);
+    position: static;
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.last{
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat' ;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+.LinkedIn{
+  color: black;
+}
